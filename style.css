@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  }
+
+  a {
+    color:white;
+    text-decoration: none;
+  }
+
+  /********** Header/footer navigation  ***************/
+header,
+footer {
+  background-color: gray;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+  /***************** Image principale ******************/
+.imageRocamadour {
+  display: flex;
+  padding-top: 60px;
+  background: url(images/rocamadour.jpeg) no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin:3px;
+}
+h1{   
+  margin-left: 10%;
+  margin-top: 5%;
+  color:white;
+  font-size: 3em;
+  text-shadow: 2px 2px firebrick;
+  }
+
+/******************* Accueil Photos   ******************/
+
+.accueil-photos {
+  background-color: white;
+  padding: 20px;
+}
+ 
+h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+/*******************   Les photos   ******************/
+
+.photo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+.photo img {
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(64, 40, 37, 0.4);
+}
+.photo img:hover{
+  opacity:0.6;  
+}
+
+
+ /******************* Footer et Logo  ******************/
+footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  position: relative;
+  height: 70px;
+  left: 30px;
+}
+
+
+
